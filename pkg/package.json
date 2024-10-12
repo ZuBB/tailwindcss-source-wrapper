@@ -2,11 +2,22 @@
   "name": "tsw",
   "version": "0.0.1-beta1",
   "description": "todo",
+  "keywords": [
+    "tailwindcss",
+    "cli",
+    "input",
+    "output"
+  ],
+  "homepage": "https://github.com/ZuBB/tailwindcss-source-wrapper#readme",
+  "bugs": {
+    "url": "https://github.com/ZuBB/tailwindcss-source-wrapper/issues"
+  },
+  "bin": "tsw",
   "main": "index.js",
   "type": "module",
-  "author": "",
+  "author": "Vasyl Zuziak",
   "license": "MIT",
   "peerDependencies": {
-    "tailwindcss": "^3.4.13"
+    "tailwindcss": "^3.0.0"
   }
 }

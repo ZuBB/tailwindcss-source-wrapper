@@ -12,7 +12,9 @@
   "bugs": {
     "url": "https://github.com/ZuBB/tailwindcss-source-wrapper/issues"
   },
-  "bin": "tsw",
+  "bin": {
+    "tsw": "tsw"
+  },
   "main": "index.js",
   "type": "module",
   "author": "Vasyl Zuziak",

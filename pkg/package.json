@@ -1,0 +1,9 @@
+{
+  "name": "tsw",
+  "version": "0.0.0",
+  "description": "todo",
+  "main": "index.js",
+  "type": "module",
+  "author": "",
+  "license": "MIT"
+}

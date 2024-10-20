@@ -4,6 +4,8 @@
   "description": "A simple wrapper over tailwind's CLI",
   "keywords": [
     "tailwindcss",
+    "tailwind",
+    "wrapper",
     "cli",
     "input",
     "output"

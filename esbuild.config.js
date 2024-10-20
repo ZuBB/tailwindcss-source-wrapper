@@ -2,7 +2,7 @@ import { argv } from 'node:process';
 import * as esbuild from 'esbuild'
 import start from '@es-exec/esbuild-plugin-start';
 
-const outfile = 'pkg/tsw';
+const outfile = 'pkg/cli.mjs';
 const config = {
   entryPoints: ['src/index.js'],
   outfile,

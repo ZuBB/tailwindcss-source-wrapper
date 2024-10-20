@@ -1,9 +1,10 @@
 {
   "name": "tsw-dev",
   "version": "0.0.1",
-  "description": "todo",
+  "description": "nothing fancy here. just a dev wrapper for main package",
   "main": "index.js",
   "type": "module",
+  "private": "true",
   "scripts": {
     "start": "node esbuild.config.js --watch",
     "prod": "node esbuild.config.js --prod",
@@ -14,8 +15,5 @@
   "devDependencies": {
     "@es-exec/esbuild-plugin-start": "^0.0.5",
     "esbuild": "^0.24.0"
-  },
-  "dependencies": {
-    "arg": "^5.0.2"
   }
 }

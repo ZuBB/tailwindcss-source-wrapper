@@ -19,7 +19,6 @@ async function main() {
   const { input, output } = twConfig;
   const spawnArgs = ['node_modules/.bin/tailwindcss', '-i', input, '-o', output];
 
-  // test
   spawn('node', spawnArgs, { stdio: 'inherit' });
 }
 
